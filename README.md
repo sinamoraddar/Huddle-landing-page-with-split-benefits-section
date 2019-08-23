@@ -1,2 +1,5 @@
-# Huddle-landing-page-with-split-benefits-section
-a psd to html webpage - my solution to the challenge by frontendmentor.io
+# My solution to the Frontend challenge by frontendmentor.io
+
+## Live version
+
+[My Solution](https://sinamoraddar.github.io/Huddle-landing-page-with-split-benefits-section/) 
