@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .header__tryItButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: $pink;
+    text-decoration: none;
+    width: 11%;
+    min-width: 80px;
+    text-align: center;
+    border: 1px solid $pink;
+    border-radius: $lightBorderRadius;
+    font-size: 85%;
+    transition: all 0.1s ease;
+    padding: 3px;
+    text-transform: capitalize;
+    &:hover {
+      color: white;
+      background-color: $pink;
+    }
+  }
+}

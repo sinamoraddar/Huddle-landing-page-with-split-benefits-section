@@ -1,0 +1,91 @@
+// headers
+.mainSection__header {
+  font-weight: $boldFontWeight;
+  text-transform: capitalize;
+  width: 100%;
+  font-size: 200%;
+  text-align: center;
+  margin: 16px 0;
+  @media screen and (max-width: $mobileBreakPoint) {
+    font-size: 150%;
+  }
+}
+// sections
+.mainSection section {
+  width: 100%;
+  margin: 25px 0;
+}
+
+// mainSection
+.mainSection {
+  display: flex;
+  flex-direction: column;
+  * {
+    color: $veryDarkCyan;
+  }
+  p {
+    color: $grayishBlue;
+    font-size: 100%;
+    text-align: center;
+  }
+}
+
+// buttons
+.getStartedButton {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: lighten($pink, 5%);
+  border-radius: $lightBorderRadius;
+  font-size: 80%;
+  text-transform: capitalize;
+  padding: 1% 2%;
+  width: 20%;
+  min-width: 150px;
+  min-height: 40px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  &:hover {
+    background: $pink;
+    -webkit-box-shadow: 0px 0px 12px -2px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 0px 12px -2px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 0px 12px -2px rgba(0, 0, 0, 0.7);
+  }
+  @media screen and (max-width: $mobileBreakPoint) {
+   font-size: 75%;
+   padding:3% 6%;
+   width:50%;
+   min-width: 50%;
+  }
+}
+
+// mainsection intro
+.mainSection__introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  p {
+    width: 40%;
+  }
+  @media screen and (max-width: $mobileBreakPoint) {
+    p {
+      width: 60%;
+      font-size: 80%;
+      line-height: 1.5;
+    }
+  }
+}
+.mainSection__introduction__image{
+    background: url(../../../resources/images/screen-mockups.svg);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+   margin-top: 25px;
+    width: 80%;
+    height: 400px;
+    @media screen and (max-width: $mobileBreakPoint) {
+       height: 200px;
+      }
+}

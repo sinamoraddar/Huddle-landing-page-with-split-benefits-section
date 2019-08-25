@@ -1,0 +1,23 @@
+{
+  "name": "huddle-landing-page-with-split-benefits-section",
+  "version": "1.0.0",
+  "description": "[My Solution](https://sinamoraddar.github.io/Huddle-landing-page-with-split-benefits-section/)",
+  "main": "index.js",
+  "scripts": {
+    "sass":"sass --watch assets/sass/main.scss:assets/css/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinamoraddar/Huddle-landing-page-with-split-benefits-section.git"
+  },
+  "author": "sinamoraddar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sinamoraddar/Huddle-landing-page-with-split-benefits-section/issues"
+  },
+  "homepage": "https://github.com/sinamoraddar/Huddle-landing-page-with-split-benefits-section#readme",
+  "dependencies": {
+    "sass": "^1.22.10"
+  }
+}
