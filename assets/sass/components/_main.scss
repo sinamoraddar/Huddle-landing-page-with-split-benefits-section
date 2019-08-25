@@ -78,11 +78,20 @@
   }
 }
 .mainSection__introduction__image {
+  background-size: contain!important;
+  background-repeat: no-repeat!important;
+  background-position: center!important;
   margin-top: 25px;
   width: 80%;
-  height: 400px;
+  height: 450px;
   @media screen and (max-width: $mobileBreakPoint) {
     margin-top: 0;
     height: 200px;
+  }
+  @media screen and (max-width: 750px) {
+    height: 300px;
+  }
+  @media screen and (max-width: 450px) {
+    height: 250px;
   }
 }
