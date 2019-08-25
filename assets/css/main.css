@@ -26,7 +26,7 @@ h1 {
   color: #ff52bf;
   text-decoration: none;
   width: 11%;
-  min-width: 80px;
+  min-width: 75px;
   text-align: center;
   border: 1px solid #ff52bf;
   border-radius: 5px;
@@ -121,7 +121,7 @@ h1 {
 }
 
 .mainSection__introduction__image {
-  background: url(../../../resources/images/screen-mockups.svg);
+  background: url(/resources/images/screen-mockups.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -144,18 +144,23 @@ h1 {
 }
 @media screen and (max-width: 375px) {
   .container {
-    padding: 4% 5%;
+    padding: 5% 5%;
   }
 }
 
 .siteLogo {
   width: 13%;
-  min-width: 100px;
+  min-width: 90px;
   height: auto;
 }
 .siteLogo img {
   width: 100%;
   height: auto;
+}
+@media screen and (max-width: 375px) {
+  .siteLogo {
+    min-width: 80px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
