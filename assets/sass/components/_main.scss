@@ -67,20 +67,20 @@
   justify-content: space-around;
   align-items: center;
   p {
-    width: 40%;
+    width: 45%;
   }
   @media screen and (max-width: $mobileBreakPoint) {
     p {
-      width: 60%;
+      width: 70%;
       font-size: 80%;
       line-height: 1.5;
     }
   }
 }
 .mainSection__introduction__image {
-  background-size: contain!important;
-  background-repeat: no-repeat!important;
-  background-position: center!important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
   margin-top: 25px;
   width: 80%;
   height: 450px;
@@ -94,4 +94,87 @@
   @media screen and (max-width: 450px) {
     height: 250px;
   }
+}
+
+.mainSection__details {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  // height: 250px!important;
+  overflow: hidden;
+  * {
+    text-align: start;
+  }
+  div {
+   width: 100%!important;
+   height: 200px!important;
+  }
+  h2 {
+    font-size: 120%;
+    margin: 8px 0;
+    width: 90%;
+  }
+  p {
+    font-size: 100%;
+    width: 80%;
+    text-align: start;
+  }
+
+  @media screen and (max-width: 768px) {
+    h2 {
+      font-size: 3.2vw;
+      width: 90%;
+    }
+    p {
+      font-size: 100%;
+      width: 80%;
+      text-align: start;
+    }
+  }
+  @media screen and (max-width: 590px) {
+    grid-template-columns: auto;
+    height: auto;
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    h2{text-align: center;}
+    .mainSection__details__image {
+      margin: 0 auto!important;
+      width: 80%;
+      height: 250px;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    h2 {
+      font-size: 3.8vw;
+      width: 90%;
+    }
+    p {
+      font-size: 100%;
+      width: 80%;
+      text-align: start;
+    }
+  }
+  @media screen and (max-width: $mobileBreakPoint) {
+    grid-template-columns: auto;
+    h2 {
+      font-size: 5.8vw;
+      width: 90%;
+    }
+    p {
+      font-size: 4.2vw;
+      line-height: 1.5;
+      width: 80%;
+      text-align: start;
+    }
+  }
+}
+.mainSection__details__image {
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
 }
