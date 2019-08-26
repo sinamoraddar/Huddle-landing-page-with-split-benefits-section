@@ -1,0 +1,5 @@
+@mixin column-order($property) {
+  div:nth-child(#{$property}) {
+    grid-column: $property + 1;
+  }
+}

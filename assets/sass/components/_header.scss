@@ -10,8 +10,9 @@
     align-items: center;
     color: $pink;
     text-decoration: none;
-    width: 11%;
-    min-width: 75px;
+    width: 10vw;
+    max-width: 150px;
+    min-width: 120px;
     text-align: center;
     border: 1px solid $pink;
     border-radius: $lightBorderRadius;
@@ -22,6 +23,10 @@
     &:hover {
       color: white;
       background-color: $pink;
+    }
+    @media screen and (max-width: $mobileBreakPoint) {
+    min-width: unset;
+    width: 30vw;
     }
   }
 }

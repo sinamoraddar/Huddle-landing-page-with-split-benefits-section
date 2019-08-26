@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+body{
+  height: 100vh;
+}
 .container {
   padding: 2% 4%;
   @media screen and (max-width: $mobileBreakPoint) {
@@ -9,14 +12,16 @@
 }
 
 .siteLogo {
-  width: 13%;
-  min-width: 90px;
+  width: 10vw;
+  max-width: 150px;
+  min-width: 120px;
   height: auto;
   img {
     width: 100%;
     height: auto;
   }
   @media screen and (max-width: $mobileBreakPoint) {
-    min-width: 80px;
+    min-width: unset;
+    width: 30vw;
   }
 }
