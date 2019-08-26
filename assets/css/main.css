@@ -260,4 +260,17 @@ h1 {
   background-position: center !important;
 }
 
+.mainSection__getStarted {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.mainSection__getStarted * {
+  margin: 15px 0;
+}
+.mainSection__getStarted a {
+  text-align: center;
+}
+
 /*# sourceMappingURL=main.css.map */

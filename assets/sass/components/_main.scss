@@ -180,3 +180,13 @@
   background-repeat: no-repeat !important;
   background-position: center !important;
 }
+
+// get started section
+.mainSection__getStarted{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  *{margin: 15px 0;}
+  a{text-align: center;}
+}
