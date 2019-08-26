@@ -56,7 +56,9 @@ footer {
     @include column-order(3);
     //   width: 80%;
     .footer__subscribeForm {
-      h3{align-self: flex-start;}
+      h3 {
+        align-self: flex-start;
+      }
       input {
         &::placeholder {
           font-size: 100%;
@@ -88,7 +90,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(/Huddle-landing-page-with-split-benefits-section/../../../resources/images/bg-footer-desktop.png);
+  background: url(/resources/images/bg-footer-desktop.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -97,7 +99,7 @@ footer {
   width: 100vw;
   height: 118px;
   @media screen and(max-width:$mobileBreakPoint) {
-    background: url(/Huddle-landing-page-with-split-benefits-section/../../../resources/images/bg-footer-mobile.png);
+    background: url(/resources/images/bg-footer-mobile.png);
     height: 96px;
   }
 }

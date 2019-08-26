@@ -392,7 +392,7 @@ footer * {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(/Huddle-landing-page-with-split-benefits-section/../../../resources/images/bg-footer-desktop.png);
+  background: url(/resources/images/bg-footer-desktop.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -403,7 +403,7 @@ footer * {
 }
 @media screen and (max-width: 375px) {
   .footer__copyRight {
-    background: url(/Huddle-landing-page-with-split-benefits-section/../../../resources/images/bg-footer-mobile.png);
+    background: url(/resources/images/bg-footer-mobile.png);
     height: 96px;
   }
 }
