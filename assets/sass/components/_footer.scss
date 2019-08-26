@@ -49,13 +49,14 @@ footer {
     }
   }
   @media screen and (min-width: 879px) {
-    grid-template-columns: auto 27% 27% 27% auto;
+    grid-template-columns: auto 30% 30% 30% auto;
     grid-column-gap: 25px;
     @include column-order(1);
     @include column-order(2);
     @include column-order(3);
     //   width: 80%;
     .footer__subscribeForm {
+      h3{align-self: flex-start;}
       input {
         &::placeholder {
           font-size: 100%;
@@ -87,7 +88,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(../../../resources/images/bg-footer-desktop.png);
+  background: url(/../../../resources/images/bg-footer-desktop.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -96,7 +97,7 @@ footer {
   width: 100vw;
   height: 118px;
   @media screen and(max-width:$mobileBreakPoint) {
-    background: url(../../../resources/images/bg-footer-mobile.png);
+    background: url(/../../../resources/images/bg-footer-mobile.png);
     height: 96px;
   }
 }

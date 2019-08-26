@@ -347,7 +347,7 @@ footer * {
 }
 @media screen and (min-width: 879px) {
   .footer__container {
-    grid-template-columns: auto 27% 27% 27% auto;
+    grid-template-columns: auto 30% 30% 30% auto;
     grid-column-gap: 25px;
   }
   .footer__container div:nth-child(1) {
@@ -358,6 +358,9 @@ footer * {
   }
   .footer__container div:nth-child(3) {
     grid-column: 4;
+  }
+  .footer__container .footer__subscribeForm h3 {
+    align-self: flex-start;
   }
   .footer__container .footer__subscribeForm input::placeholder {
     font-size: 100%;
@@ -389,7 +392,7 @@ footer * {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(../../../resources/images/bg-footer-desktop.png);
+  background: url(/../../../resources/images/bg-footer-desktop.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -400,7 +403,7 @@ footer * {
 }
 @media screen and (max-width: 375px) {
   .footer__copyRight {
-    background: url(../../../resources/images/bg-footer-mobile.png);
+    background: url(/../../../resources/images/bg-footer-mobile.png);
     height: 96px;
   }
 }
