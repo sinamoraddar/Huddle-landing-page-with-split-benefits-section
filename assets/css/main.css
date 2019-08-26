@@ -188,15 +188,21 @@ h1 {
 .mainSection__details * {
   text-align: start;
 }
+.mainSection__details .mainSection__details__decription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .mainSection__details h2 {
   font-size: 120%;
-  margin: 8px 0;
-  width: 90%;
+  width: 70%;
+  margin-bottom: 10px !important;
 }
 .mainSection__details p {
+  margin-bottom: 25px !important;
   font-size: 90%;
   line-height: 1.4;
-  width: 80%;
+  width: 70%;
   text-align: start;
 }
 @media screen and (max-width: 768px) {
