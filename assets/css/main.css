@@ -180,7 +180,7 @@ h1 {
   grid-template-rows: auto;
   height: auto;
   grid-column-gap: 10px;
-  grid-row-gap: 10px;
+  grid-row-gap: 45px;
 }
 .mainSection__details div {
   width: 100% !important;
@@ -201,11 +201,11 @@ h1 {
 }
 @media screen and (max-width: 768px) {
   .mainSection__details h2 {
-    font-size: 2.9vw;
+    font-size: 2.6vw;
     width: 90%;
   }
   .mainSection__details p {
-    font-size: 2.2vw;
+    font-size: 1.9vw;
     width: 80%;
     text-align: start;
   }
@@ -213,7 +213,9 @@ h1 {
 @media screen and (max-width: 590px) {
   .mainSection__details {
     grid-template-columns: auto;
-    height: auto;
+  }
+  .mainSection__details div:first-child {
+    grid-row: 2;
   }
   .mainSection__details div {
     display: flex;
@@ -243,9 +245,6 @@ h1 {
   }
 }
 @media screen and (max-width: 375px) {
-  .mainSection__details {
-    grid-template-columns: auto;
-  }
   .mainSection__details h2 {
     font-size: 5.8vw;
     width: 90%;

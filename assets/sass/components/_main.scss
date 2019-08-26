@@ -103,7 +103,7 @@
   grid-template-rows: auto;
   height: auto;
   grid-column-gap: 10px;
-  grid-row-gap: 10px;
+  grid-row-gap: 45px;
   div {
     width: 100% !important;
   }
@@ -124,18 +124,20 @@
   }
   @media screen and (max-width: 768px) {
     h2 {
-      font-size: 2.9vw;
+      font-size: 2.6vw;
       width: 90%;
     }
     p {
-      font-size: 2.2vw;
+      font-size: 1.9vw;
       width: 80%;
       text-align: start;
     }
   }
   @media screen and (max-width: 590px) {
     grid-template-columns: auto;
-    height: auto;
+    div:first-child {
+      grid-row: 2;
+    }
     div {
       display: flex;
       flex-direction: column;
@@ -164,7 +166,6 @@
     }
   }
   @media screen and (max-width: $mobileBreakPoint) {
-    grid-template-columns: auto;
     h2 {
       font-size: 5.8vw;
       width: 90%;
