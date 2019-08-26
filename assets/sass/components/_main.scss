@@ -3,11 +3,11 @@
   font-weight: $boldFontWeight;
   text-transform: capitalize;
   width: 100%;
-  font-size: 200%;
+  font-size: 225%;
   text-align: center;
   margin: 16px 0;
   @media screen and (max-width: $mobileBreakPoint) {
-    font-size: 150%;
+    font-size: 140%;
   }
 }
 // sections
@@ -67,12 +67,12 @@
   justify-content: space-around;
   align-items: center;
   p {
-    width: 45%;
+    width: 60%;
   }
   @media screen and (max-width: $mobileBreakPoint) {
     p {
-      width: 70%;
-      font-size: 80%;
+      width: 80%;
+      font-size: 90%;
       line-height: 1.5;
     }
   }
@@ -100,35 +100,35 @@
   display: grid;
   width: 100%;
   grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  height: auto;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-  // height: 250px!important;
-  overflow: hidden;
+  div {
+    width: 100% !important;
+  }
   * {
     text-align: start;
   }
-  div {
-   width: 100%!important;
-   height: 200px!important;
-  }
+
   h2 {
     font-size: 120%;
     margin: 8px 0;
     width: 90%;
   }
   p {
-    font-size: 100%;
+    font-size: 90%;
+    line-height: 1.4;
     width: 80%;
     text-align: start;
   }
-
   @media screen and (max-width: 768px) {
     h2 {
-      font-size: 3.2vw;
+      font-size: 2.9vw;
       width: 90%;
     }
     p {
-      font-size: 100%;
+      font-size: 2.2vw;
       width: 80%;
       text-align: start;
     }
@@ -141,22 +141,26 @@
       flex-direction: column;
       align-items: center;
     }
-    h2{text-align: center;}
+    h2 {
+      font-size: 3.7vw;
+      text-align: center;
+    }
+    p {
+      font-size: 2.9vw;
+      text-align: center;
+    }
     .mainSection__details__image {
-      margin: 0 auto!important;
+      margin: 0 auto !important;
       width: 80%;
       height: 250px;
     }
   }
   @media screen and (max-width: 425px) {
     h2 {
-      font-size: 3.8vw;
-      width: 90%;
+      font-size: 4.4vw;
     }
     p {
-      font-size: 100%;
-      width: 80%;
-      text-align: start;
+      font-size: 3.4vw;
     }
   }
   @media screen and (max-width: $mobileBreakPoint) {
@@ -167,9 +171,6 @@
     }
     p {
       font-size: 4.2vw;
-      line-height: 1.5;
-      width: 80%;
-      text-align: start;
     }
   }
 }
